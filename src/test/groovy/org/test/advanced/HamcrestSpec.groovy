@@ -22,4 +22,9 @@ class HamcrestSpec extends Specification {
 //        that list, everyItem(lessThan(5))
 //        list.every { it < 5 } // #jdk8: Stream.allMatch(Predicate<? super T> predicate);
     }
+
+    /**
+     * {@link org.test.advanced.macleod.MacLeodClan}
+     * {@link org.test}
+     */
 }

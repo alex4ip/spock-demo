@@ -20,7 +20,7 @@ class GroovyFeaturesSpec extends Specification {
         1
     }
 
-    def "rich asserts"() {
+    def "rich_asserts"() {
         given:
         def a = 10
         def b = 20
@@ -29,6 +29,10 @@ class GroovyFeaturesSpec extends Specification {
         expect:
         1000 / ((a**2 + 25) / 10) == b * (c - 10) / 5
     }
+
+    /**
+     * {@link InitDestroySpec}
+     */
 
     def "multiple assignment"() {
         given:
@@ -74,4 +78,9 @@ class GroovyFeaturesSpec extends Specification {
         then:
         actual == (5..10)*.multiply(10)
     }
+
+    /**
+     * {@link InitDestroySpec}
+     * {@link org.test}
+     */
 }

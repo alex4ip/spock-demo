@@ -50,4 +50,9 @@ class AnnotationsSpec extends Specification {
         where:
         n << ['3rd', '4th']
     }
+
+    /**
+     * {@link WhereLabelPowerSpec}
+     * {@link org.test}
+     */
 }

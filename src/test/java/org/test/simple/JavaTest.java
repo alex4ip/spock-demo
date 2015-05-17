@@ -14,4 +14,8 @@ public class JavaTest {
         assert v2 == 1.9;
         //endregion
     }
+
+    /**
+     * {@link org.test}
+     */
 }

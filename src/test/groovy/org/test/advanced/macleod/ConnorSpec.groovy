@@ -20,3 +20,7 @@ class ConnorSpec extends MacLeodClan {
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 @interface ConnorMacLeod {}
+
+/**
+ * {@link org.test.advanced.InteractionsSpec}
+ */

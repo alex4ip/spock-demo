@@ -21,4 +21,9 @@ class InitDestroySpec extends Specification {
         expect:
         println "test 2";
     }
+
+    /**
+     * {@link AnnotationsSpec}
+     * {@link org.test}
+     */
 }

@@ -61,12 +61,6 @@ class WhereLabelPowerSpec extends Specification {
 
     //@Unroll on class
 
-
-
-
-
-
-
     /**
      ██████╗  █████╗ ██████╗ ████████╗    ██████╗
      ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝    ╚════██╗
@@ -75,5 +69,6 @@ class WhereLabelPowerSpec extends Specification {
      ██║     ██║  ██║██║  ██║   ██║       ███████╗
      ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝       ╚══════╝
      * {@link org.test.advanced.HamcrestSpec}
+     * {@link org.test}
      */
 }

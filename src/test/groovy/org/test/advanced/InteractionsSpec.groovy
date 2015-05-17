@@ -131,4 +131,8 @@ class InteractionsSpec extends Specification {
         then:
         thrown(RuntimeException)
     }
+
+    /**
+     * {@link org.test}
+     */
 }

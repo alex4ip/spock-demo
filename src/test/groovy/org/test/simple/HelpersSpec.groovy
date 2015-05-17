@@ -41,4 +41,9 @@ class HelpersSpec extends Specification {
         then:
         atomicInt.get() == old(atomicInt.get()) + 1
     }
+
+    /**
+     * {@link GroovyFeaturesSpec#rich_asserts()}
+     * {@link org.test}
+     */
 }
